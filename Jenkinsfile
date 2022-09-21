@@ -9,7 +9,7 @@ pipeline{
         stage('Validate'){
             steps{
             sh "mvn validate"
-            sh "echo Validate is successful"
+           // sh "echo Validate is successful"
             }
         }
         stage('compile'){
