@@ -3,7 +3,7 @@ pipeline{
     agent any
     tools{
     maven 'Maven-vsv'
-    jdk 'java'
+   // jdk 'java'
     }
     stages{
         stage('Validate'){
