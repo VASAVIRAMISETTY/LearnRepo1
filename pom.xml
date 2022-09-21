@@ -40,7 +40,7 @@
 	
 	
 
-	
+	<!--
 <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
@@ -53,7 +53,7 @@
         <url>http://10.89.72.53:8081/artifactory/libs-release</url>
     </repository>	
 </distributionManagement>
-	
+	-->
 	<scm>
 		<connection>scm:git:git@github.com:kesavkummari/staragiledevops.git</connection>
 		<developerConnection>scm:git:git@github.com:kesavkummari/staragiledevops.git</developerConnection>
