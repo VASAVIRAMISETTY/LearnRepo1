@@ -12,13 +12,13 @@ pipeline{
         stage('compile'){
             steps{
             sh "mvn compile"
-            sh "echo Validate is successful"
+           // sh "echo Validate is successful"
             }
         }
         stage('test'){
             steps{
              sh "mvn test"
-            sh "echo test is successful"
+           // sh "echo test is successful"
             }
         }
         stage('package'){
