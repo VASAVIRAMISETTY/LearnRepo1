@@ -3,12 +3,7 @@ pipeline{
     agent any
 
     stages{
-        stage('Validate'){
-            steps{
-            sh "mvn validate"
-           // sh "echo Validate is successful"
-            }
-        }
+        
         stage('compile'){
             steps{
             sh "mvn compile"
