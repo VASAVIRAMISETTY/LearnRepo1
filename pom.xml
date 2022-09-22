@@ -22,53 +22,12 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>3.6.0</maven.compiler.source>
  		<maven.compiler.target>3.6.0</maven.compiler.target>
-		<!--
-<maven.compiler.source>1.8</maven.compiler.source>
- 		<maven.compiler.target>1.8</maven.compiler.target>
-<java.version>1.8</java.version>
--->
 		<java.version>11.0.16</java.version>
 		<surefire.version>3.0.0-M5</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
+		<sonar.organization>vmw</sonar.organization>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		
-		  <sonar.organization>vmw</sonar.organization>
-                  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		
-		<!-- SonarQube Integration 
-        <sonar.projectKey>softobiz-devops</sonar.projectKey>
-        <sonar.organization>softobiz-devops</sonar.organization>
-        <sonar.host.url>http://18.118.189.10:9000</sonar.host.url>
-        <sonar.login>d62c8bf45df00bfbcb76ce3cc101d496b8d137f1</sonar.login>
-		-->
-	</properties>
-	
-	
-	
-
-	<!--
-<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>libs-snapshots</name>
-        <url>http://10.89.72.53:8081/artifactory/libs-snapshot</url>
-    </snapshotRepository>
-    <repository>
-        <id>central</id>
-        <name>libs-release</name>
-        <url>http://10.89.72.53:8081/artifactory/libs-release</url>
-    </repository>	
-</distributionManagement>
-	-->
-	
-	<!--
-	<scm>
-		<connection>scm:git:git@github.com:kesavkummari/staragiledevops.git</connection>
-		<developerConnection>scm:git:git@github.com:kesavkummari/staragiledevops.git</developerConnection>
-		<url>git@github.com:kesavkummari/staragiledevops.git</url>
-		<tag>HEAD</tag>
-	</scm>
-
--->
 	<scm>
 		<connection>https://github.com/VASAVIRAMISETTY/LearnRepo1.git</connection>
 		<developerConnection>https://github.com/VASAVIRAMISETTY/LearnRepo1.git</developerConnection>
