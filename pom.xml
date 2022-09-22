@@ -27,6 +27,7 @@
 		<jacoco.version>0.7.9</jacoco.version>
 		<sonar.organization>vmw</sonar.organization>
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
 		
 	<scm>
 		<connection>https://github.com/VASAVIRAMISETTY/LearnRepo1.git</connection>
